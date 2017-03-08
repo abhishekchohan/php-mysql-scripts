@@ -45,3 +45,25 @@ Where there is an embedded blank between digits, there may be zero or more embed
 #########################################################################################################################
 
 
+File named deadlanguges is a text file used as a input
+phpexer.php is the script that perform the following instructions using the deadlanguage file and mysql database.
+
+/*
+Using the text file Dead Languages
+
+Write a script that will:
+
+Pull the file into the script as a require function
+Open the file for editing
+Count the number of instances of the match " wh* " before editing with a regular expression 
+Store the value in a MySQL table called editing and field called preedit
+Using a Regular expression, change every instance in the file of a charcter string inside round brackets to "*wh*"
+Record the number of instances changed in the same MySQL table in a field called postedit
+Using fseek and ftell, change the same string from character string "wha" to "which" at character 782 to the end of the file
+Record the number of instances changed in the MySQL table in a field called selection
+Save the changed file from the seek and tell point in a new file
+
+*/
+
+#########################################################################################################################
+#########################################################################################################################
